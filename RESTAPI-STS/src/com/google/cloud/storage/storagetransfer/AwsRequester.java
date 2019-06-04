@@ -76,8 +76,8 @@ public final class AwsRequester {
     String gcsSinkBucket = "gcpsinkbucket";//TransferJobUtils.getPropertyOrFail("gcsSinkBucket");
     String startDate = date;//TransferJobUtils.getPropertyOrFail("2019-05-15");
     String startTime = time;//TransferJobUtils.getPropertyOrFail("13:52:00.000000000");
-    String awsAccessKeyId = "AKIA6C2MAQJ6HV3B55DZ";//TransferJobUtils.getEnvOrFail("AWS_ACCESS_KEY_ID");
-    String awsSecretAccessKey ="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" ;//TransferJobUtils.getEnvOrFail("AWS_SECRET_ACCESS_KEY");
+    String awsAccessKeyId = "";//TransferJobUtils.getEnvOrFail("AWS_ACCESS_KEY_ID");
+    String awsSecretAccessKey ="" ;//TransferJobUtils.getEnvOrFail("AWS_SECRET_ACCESS_KEY");
 
     TransferJob responseT =
         createAwsTransferJob(
